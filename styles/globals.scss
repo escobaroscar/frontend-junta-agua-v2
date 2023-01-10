@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '../assets/fonts/fonts.scss';
+
+h5{
+font-family: Nunito Bold;
+font-weight: 400;
+}
