@@ -118,11 +118,11 @@ const Login = () => {
                             </div>
                             <div className="col-span-1 py-1">
                               <div className="grid grid-cols-6 items-center">
-                                <div className="col-span-6 md:col-span-2 h-1 w-full bg-gradient-to-r from-white to-[#012E40] hidden md:block"></div>
+                                <div className="col-span-6 md:col-span-2 h-1 w-full bg-gradient-to-r from-[#D7D7D9] to-[#012E40] hidden md:block"></div>
                                 <div className="col-span-6 md:col-span-2 text-center pb-2 md:pb-0">
                                   O inicia con:{" "}
                                 </div>
-                                <div className="col-span-6 md:col-span-2 h-1 bg-gradient-to-r from-white to-[#012E40] md:bg-gradient-to-r md:from-[#012E40] md:to-white "></div>
+                                <div className="col-span-6 md:col-span-2 h-1 bg-gradient-to-r from-white to-[#012E40] md:bg-gradient-to-r md:from-[#012E40] md:to-[#D7D7D9] "></div>
                               </div>
                             </div>
                             <div className="col-span-1 py-1 px-11 md:px-0">
@@ -157,7 +157,7 @@ const Login = () => {
                             <div className="col-span-1 pt-3">
                               <Row justify="center" align="center">
                                 <Text size={10} weight="bold">
-                                  JUNTA AGUA 2022 - POWERED BY
+                                  {`© AGUA POTABLE MOLLEPAMBA  ${new Date().getFullYear()} - POWERED BY TECH SEED`}
                                 </Text>
                               </Row>
                             </div>
